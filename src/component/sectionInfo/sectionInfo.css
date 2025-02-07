@@ -1,0 +1,31 @@
+.section-component {
+  padding: 50px 90px;
+  display: flex;
+  flex-flow: column;
+}
+
+.section-component h4 {
+  font-size: 18px;
+  font-size: 400;
+  color: #c1844d;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.section-component div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-component div p {
+  font-size: 36px;
+  font-weight: 600;
+  color: #293037;
+  width: 527px;
+}
+
+.section-component div small {
+  font-size: 20px;
+  color: #b4b4b4;
+  width: 527px;
+}

@@ -1,0 +1,17 @@
+section {
+  margin: 0px 80px;
+  /* width: 0%; */
+  background-image: url(../../assets/img/OilRefinery.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  @media (max-width: 640px) {
+    background-image: url(../../assets/img/OilRefinerySm.png);
+    border-radius: 20px;
+    height: 200px;
+    margin: 0px 10px;
+    background-position: initial;
+  }
+}
