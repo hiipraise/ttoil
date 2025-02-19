@@ -1,0 +1,19 @@
+.carousel {
+  height: 80vh;
+  padding: 0px 2.5vw;
+}
+
+.oilplantimg {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.doings {
+  font-size: 16px;
+  color: #c1844d;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+    color: #c1844d;
+  }
+}

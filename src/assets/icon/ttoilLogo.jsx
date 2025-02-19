@@ -1,8 +1,8 @@
-import React from "react";
+import "./ttoilLogo.css"
 
 const TtoilLogo = () => {
   return (
-    <svg
+    <svg className="ttoil-logo"
       width="114"
       height="40"
       viewBox="0 0 114 40"

@@ -1,8 +1,8 @@
-import React from "react";
 
 const MenuBar = () => {
   return (
     <svg
+      className="menubar"
       width="24"
       height="24"
       viewBox="0 0 9 10"

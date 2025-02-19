@@ -1,17 +1,47 @@
-section {
-  margin: 0px 80px;
-  /* width: 0%; */
+.herosection {
+  margin: 0px 5vw;
   background-image: url(../../assets/img/OilRefinery.png);
-  height: 80vh;
+  height: 35vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 40px;
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   @media (max-width: 640px) {
     background-image: url(../../assets/img/OilRefinerySm.png);
     border-radius: 20px;
-    height: 200px;
-    margin: 0px 10px;
-    background-position: initial;
+    height: 180px;
+  }
+}
+
+.hero-text-head {
+  color: #ffffff;
+  text-decoration: underline;
+
+  @media (max-width: 640px) {
+    font-size: 12px;
+  }
+}
+
+.hero-text {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 28px;
+  @media (max-width: 640px) {
+    font-size: 18px;
+  }
+}
+
+.hero-sm-text {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 12px;
+  @media (max-width: 768px) {
+    display: none;
   }
 }

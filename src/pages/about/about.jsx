@@ -1,10 +1,9 @@
-import React from "react";
 import SectionInfo from "../../component/sectionInfo/sectionInfo";
 import "./about.css";
 
 const About = () => {
   return (
-    <div>
+    <div className="aboutdiv">
       <SectionInfo
         section={"ABOUT OUR COMPANY"}
         info={

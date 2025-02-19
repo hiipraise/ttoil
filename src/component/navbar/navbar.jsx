@@ -1,5 +1,4 @@
-import React from "react";
-import "./navbar.css";
+import { useState } from "react";
 import TtoilLogo from "../../assets/icon/ttoilLogo";
 import {
   MDBDropdown,
@@ -8,11 +7,22 @@ import {
   MDBDropdownItem,
 } from "mdb-react-ui-kit";
 import MenuBar from "../../assets/icon/menubar";
+import "./navbar.css";
 
 const NavBar = () => {
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+    // console.log("Menu Toggled: ", menuVisible);
+  };
+
   return (
     <nav>
-      <ul>
+      <a href="#" className="menubar" onClick={toggleMenu}>
+        <MenuBar />
+      </a>
+      <ul className={`ul-1 ${menuVisible ? "visible" : ""}`}>
         <li>
           <a href="../../pages/about/about.jsx">ABOUT</a>
         </li>
@@ -24,7 +34,7 @@ const NavBar = () => {
         </li>
       </ul>
       <TtoilLogo />
-      <ul>
+      <ul className={`ul-2 ${menuVisible ? "visible" : ""}`}>
         <li>
           <a href="../../pages/location/location.jsx">LOCATION</a>
         </li>
@@ -44,9 +54,6 @@ const NavBar = () => {
           </MDBDropdown>
         </li>
       </ul>
-      <a href="#" className="menubar">
-        MENU <MenuBar />
-      </a>
     </nav>
   );
 };
