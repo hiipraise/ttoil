@@ -22,7 +22,7 @@ const NavBar = () => {
       <a href="#" className="menubar" onClick={toggleMenu}>
         <MenuBar />
       </a>
-      <ul className={`ul-1 ${menuVisible ? "visible" : ""}`}>
+      <ul className="ul-1 ">
         <li>
           <a href="../../pages/about/about.jsx">ABOUT</a>
         </li>
