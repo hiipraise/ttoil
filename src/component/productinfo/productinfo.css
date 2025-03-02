@@ -1,0 +1,36 @@
+.imgproduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vmin;
+  flex-wrap: wrap;
+  @media (max-width: 640px) {
+    text-align: center;
+  }
+}
+
+.imgproduct img {
+  height: 20vw;
+  border-radius: 10px;
+  @media (max-width: 640px) {
+    height: 53.5vw;
+  }
+}
+
+.productinfo h5 {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 30px;
+  @media (max-width: 640px) {
+    font-size: 15px;
+  }
+}
+
+.productinfo p {
+  font-size: 16px;
+  color: #ffffff;
+  width: 65vmin;
+  @media (max-width: 1006px) {
+    font-size: 13px;
+    width: 100%;
+  }
+}

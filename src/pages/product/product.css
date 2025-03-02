@@ -1,1 +1,26 @@
- 
+.productsection {
+  margin: 0px 5vw;
+  padding: 5vw;
+  background-color: #293037;
+  border-radius: 20px;
+}
+
+.productdata {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  @media (max-width: 640px) {
+    gap: 30px;
+  }
+}
+
+.productsection h6 {
+  font-size: 14px;
+  color: #c1844d;
+  margin-bottom: 2vw;
+  text-decoration: underline;
+  @media (max-width: 640px) {
+    text-align: center;
+    font-size: 12px;
+  }
+}
