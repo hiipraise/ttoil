@@ -67,6 +67,11 @@ nav ul li a {
   }
 }
 
+.active {
+  font-weight: bold;
+  color: #c1844d; 
+}
+
 nav .menubar {
   display: none;
   @media (max-width: 640px) {

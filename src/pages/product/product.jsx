@@ -4,7 +4,7 @@ import "./product.css";
 
 const Product = () => {
   return (
-    <div className="productsection">
+    <div className="productsection" style={{ minHeight: "100vh" }}>
       <h6>Product</h6>
       <div className="productdata">
         {productData.length &&
