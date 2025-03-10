@@ -1,45 +1,48 @@
+import { useTranslation } from 'react-i18next';
 import "./contact.css";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="contact-container">
       <div className="overlay">
         <div className="contactinput">
-          <small>CONTACT</small>
-          <h4>Feel free to Contact Us</h4>
+          <small>{t('CONTACT')}</small>
+          <h4>{t('FEEL_FREE_TO_CONTACT_US')}</h4>
           <div className="inputscontact">
             <input
               className="inputtext"
               type="text"
               name="fullname"
-              placeholder="Full name"
+              placeholder={t('FULL_NAME')}
               id=""
             />
             <input
               className="inputemail"
               type="email"
               name="email"
-              placeholder="E-mail"
+              placeholder={t('EMAIL')}
               id=""
             />
             <input
               className="inputtext"
               type="text"
               name="tithe"
-              placeholder="Tithe"
+              placeholder={t('TITHE')}
               id=""
             />
             <input
               className="textarea"
               type="text"
               name="yourmessage"
-              placeholder="Your message"
+              placeholder={t('YOUR_MESSAGE')}
               id=""
             />
           </div>
-            <button className="sendbtn" type="submit">
-              SEND YOUR MESSAGE
-            </button>
+          <button className="sendbtn" type="submit">
+            {t('SEND_YOUR_MESSAGE')}
+          </button>
         </div>
       </div>
     </div>
