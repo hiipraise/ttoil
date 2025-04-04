@@ -89,7 +89,7 @@ const NavBar = ({ aboutRef, servicesRef, productsRef, locationRef, contactRef, a
           </a>
         </li>
         <li>
-          <MDBDropdown>
+          <MDBDropdown className="btn-language">
             <MDBDropdownToggle tag="a" className="btn btn-primary">
               {t('LANGUAGE')}
             </MDBDropdownToggle>

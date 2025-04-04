@@ -69,7 +69,7 @@ nav ul li a {
 
 .active {
   font-weight: bold;
-  color: #c1844d; 
+  color: #c1844d;
 }
 
 nav .menubar {
@@ -82,7 +82,7 @@ nav .menubar {
   }
 }
 
-.btn {
+.btn-primary {
   background-color: #c1844d;
   &:hover {
     background-color: #c1844d;
