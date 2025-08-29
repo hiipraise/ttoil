@@ -1,8 +1,44 @@
-# React + Vite
+# Ttoil Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend project for **Ttoil**, built with [React](https://react.dev/).
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+
+   ```bash
+   npm start
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+FRONTEND/
+└── REACT/
+     └── ttoil/
+          ├── public/
+          ├── src/
+          ├── package.json
+          └── README.md
+```
+
+## Features
+
+- Modern React setup
+- Component-based architecture
+- Easy to customize and extend
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
